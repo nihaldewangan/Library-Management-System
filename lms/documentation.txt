@@ -1,0 +1,22 @@
+The app contains the following urls
+
+1. Admin signup (/admin_signup)
+	a) Insert admin details in tables.
+
+2. Admin login (/login)
+	a) The Admin can log in based on email and password.
+
+CRUD Operations
+3. Create book records (/book-add)
+	a) The admin can create a new entry of a book.
+
+4. Retrieve all the books (/books)
+
+5. Update a book (/book-update/<int>)
+	a) Fetches a stored book data by a unique identifier and updates it
+
+6. Delete a book (/book-delete/<int>)
+	a) Fetches a stored book data by a unique identifier and deletes it
+
+7. Reatrieve single book detail (/book-detail/<int>)
+	a) Fetches a stored book data by a unique identifier.
